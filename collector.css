@@ -1,0 +1,323 @@
+
+#sportsTable {
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+#teamsTable {
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+#manuTable {
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;	
+}
+
+#cardSetsTable {
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#insertTable {
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+
+#playerTable {
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#addCardTable, .addCardTable {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;	
+	vertical-align: text-top;
+	
+}
+
+#cardTable {
+	
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;	
+	width: 100%;
+	
+}
+
+ #cardTable th, #insertTable th, #cardSetsTable th {
+	border: 2px solid black;
+	box-shadow: 1px 1px 1px 1px black;
+	
+}
+
+#cardTable tr:nth-child(even), #insertTable tr:nth-child(even), #cardSetsTable tr:nth-child(even) {
+	background-color: powderblue;
+}
+
+table.formTable {
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px solid black;
+	border-collapse: collapse;
+	vertical-align: top;
+		
+}
+
+p {
+	
+	text-align: center;	
+}
+
+td.tableData {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	
+}
+
+td.formLabel {
+	text-align: right;
+	vertical-align: top;
+	
+}
+
+td.formInput {
+	text-align: left;
+	vertical-align: top;
+}
+
+tr.imbTable {
+	border-bottom: 1px solid black;
+	border-collapse: collapse;
+	vertical-align: top;	
+	
+}
+
+tr.formSubmit {
+	border: 1px solid black;
+	border-collapse:collapse;
+	text-align: center;
+	vertical-align: top;
+}
+
+tr.formData {
+	border: 1px solid black;
+	border-collapse: collapse;
+	vertical-align: top;
+}
+
+
+
+header {
+	text-align: center;
+	
+}
+
+nav ul {
+	text-align: center;	
+	list-style: none;
+	float: none;
+	color: white;
+	background-color: blue;	
+	background: -moz-linear-gradient(top left, red , blue 30%);
+	border-radius: 10px;
+	
+}
+
+nav ul ul {
+	display: none;
+	float:left;
+	background-color: blue;
+	background: -moz-linear-gradient(top, blue, blue);
+	padding: 3px;
+	border-radius: 10px;
+	box-shadow: 1px 2px 2px 2px red;
+		
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-table;
+	font-family: 'Arial';
+	font-weight: bold;
+	float: none;
+	position:relative;
+	padding: 1px 20px 1px 20px;
+	text-align: center;	
+	
+}
+
+nav ul li:hover > ul {
+	 text-align: left;
+	 display: inline-table;
+	 top: 100%;
+	 left: 0;
+	 list-style: none;
+	 position: absolute;
+	 	  
+}
+
+nav ul ul li {
+	list-style: none;
+	text-align: left;
+	font-weight: normal;
+	font-family: 'Times New Roman';
+	white-space: nowrap;
+	position: relative;
+	background-color: blue;
+	padding: 1px 5px 5px 5px;
+	color: white;
+		
+}
+
+nav a:link {
+	float: left;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: Red;
+	color: blue;
+	text-decoration: none;
+	border-radius: 3px;
+} 
+
+nav a:active {
+	background-color: blue;
+	color: red;
+	text-decoration: none;
+}
+
+tr#advancedSearch {
+	display: none;
+}
+
+.search2 {
+	text-align: center;
+	
+}
+
+.rowEdit {
+	display: none;
+}
+
+.rowEdit:visited {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+
+}
+
+.rowEdit:link {
+	display: inline block;
+	color: white;
+	text-decoration: none;
+	
+
+}
+
+.rowEdit:hover{
+	display: inline-block;
+	color: red;
+	text-decoration: underline;
+	
+}
+tr.cardData:hover td {
+	
+	color: white;
+	background-color: blue;
+	
+}
+
+tr.cardData:hover .rowEdit{
+	display: inline-block;
+	border:none;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+	font-size: 1em;
+	font-family: serif;
+}
+
+.arrow {
+	display: inline-block;
+	transform: rotate(90deg);
+}
+
+a#advSearch:link {
+	text-decoration:none;
+}
+
+.modal {
+	display: none; /* Hidden by default */
+    position: fixed ; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 1px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+	padding: 0px 10px 0px 0px;
+    font-size: 28px;
+	font-weight: bold;
+
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#cardIdNum {
+	text-align: center;
+}
+
+
+
